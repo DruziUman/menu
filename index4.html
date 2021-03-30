@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Druzi Uman - Десерти</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="style4.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  </head>
+  <body>
+
+    <header>
+      <a href="index.html" class="brand">Druzi Uman</a>
+      <div class="menu">
+        <div class="menu">
+        <div class="hamburger-menu">
+  <input id="menu__toggle" type="checkbox" />
+  <label class="menu__btn" for="menu__toggle">
+    <span></span>
+  </label>
+  <ul class="menu__box">
+    <li><a class="menu__item" href="index.html"><i class="fas fa-home"></i> Home</a></li>
+    <li><a class="menu__item" href="idex3.html"><i class="fas fa-coffee"></i> Напої</a></li>
+    <li><a class="menu__item" href="index4.html"><i class="fas fa-ice-cream"></i>Десерти</a></li>
+    <li><a class="menu__item" href="index2.html"><i class="fas fa-utensils"></i> Waffle</a></li>
+    <li><a class="menu__item" href="index1.html"><i class="fas fa-utensils"></i> Pancakes</a></li>
+  </ul>
+</div>
+    </header>
+    <section class="section-main">
+      <h1>Десерти</h1>
+    </section>
+    <section class="section-two">
+      <section class="portfolio">
+        <p>
+          <div class="p-mainBox">
+             <div class="p-box">
+                <h3><strong>Тістечко</strong><br>
+                  <strong>40 гривень</strong><br></h3>
+                <hr>
+                <img src="img/1.jpg" alt="Image">
+            </div>
+            
+            <div class="p-mainBox">
+             <div class="p-box">
+                <h3><strong>Десерт "Асорті №1" (чізкейк)</strong><br>
+                  <strong>45 гривень</strong><br></h3>
+                <hr>
+                <img src="img/2.jpg" alt="Image">
+            </div>
+
+            <div class="p-mainBox">
+             <div class="p-box">
+                <h3><strong>Морозиво в асортименті</strong><br>
+                  <strong>16 гривень</strong><br></h3>
+                <hr>
+                <img src="img/3.jpg" alt="Image">
+            </div>
+
+            <div class="p-mainBox">
+             <div class="p-box">
+                <h3><strong>Макаруни</strong><br>
+                  <strong>20 гривень</strong><br></h3>
+                <hr>
+                <img src="img/4.jpg" alt="Image">
+            </div>
+
+            <div class="p-mainBox">
+             <div class="p-box">
+                <h3><strong>Десерт "Червоний оксамит"</strong><br>
+                  <strong>50 гривень</strong><br></h3>
+                <hr>
+                <img src="img/5.jpg" alt="Image">
+            </div>
+
+            <div class="p-mainBox">
+             <div class="p-box">
+                <h3><strong>Десерт "Персиковий"</strong><br>
+                  <strong>50 гривень</strong><br></h3>
+                <hr>
+                <img src="img/6.jpg" alt="Image">
+            </div>
+
+            <div class="p-mainBox">
+             <div class="p-box">
+                <h3><strong>Десерт "Пінчер"</strong><br>
+                  <strong>50 гривень</strong><br></h3>
+                <hr>
+                <img src="img/7.jpg" alt="Image">
+            </div>
+          </div></p>
+      </section>
+    </section>
+
+    <section class="section-three">
+       <div class="footer-basic">
+        <footer>
+            <div class="social">
+              <a href="https://github.com/emalovanyi"><i class="fab fa-github"></i></a>
+              <a href="https://www.instagram.com/druzi_uman/"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/eugeniy-malovanyi-0178821b4/"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="index.html">Home</a></li>
+                <li class="list-inline-item"><a href="idex3.html">Напої</a></li>
+                <li class="list-inline-item"><a href="index2.html">Waffle</a></li>
+                <li class="list-inline-item"><a href="index1.html">Pancakes</a></li>
+                <li class="list-inline-item"><a href="index4.html">Десерти</a></li>
+            </ul>
+            <p class="copyright">Eugenyi Malovanyi© 2021</p>
+        </footer>
+    </div>
+    </section>
+
+    <script type="text/javascript">
+    //javascript for navigation bar effect on scroll
+    window.addEventListener("scroll", function(){
+      var header = document.querySelector("header");
+      header.classList.toggle('sticky', window.scrollY > 0);
+    });
+
+    //javascript for responsive navigation sidebar menu
+    var menu = document.querySelector('.menu');
+    var menuBtn = document.querySelector('.menu-btn');
+    var closeBtn = document.querySelector('.close-btn');
+
+    menuBtn.addEventListener("click", () => {
+      menu.classList.add('active');
+    });
+
+    closeBtn.addEventListener("click", () => {
+      menu.classList.remove('active');
+    });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
